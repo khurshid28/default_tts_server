@@ -58,18 +58,7 @@ def getVoice():
     )
     return response
 
-
-
-
-    path_to_file = "/test.wav"
-
-    return sendfile(
-        path_to_file, 
-        mimetype="audio/wav", 
-        as_attachment=True, 
-        attachment_filename="test.wav")
-
-
+    
 
     
 if __name__ == '__main__': 
