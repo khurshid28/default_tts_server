@@ -60,7 +60,7 @@ def getVoice():
 
 
 @app.route('/',methods=['GET'])
-def getVoice(): 
+def home(): 
    
   
     return "Server is working"
