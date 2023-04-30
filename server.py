@@ -58,6 +58,12 @@ def getVoice():
     )
     return response
 
+
+@app.route('/',methods=['GET'])
+def getVoice(): 
+   
+  
+    return "Server is working"
     
 
     
